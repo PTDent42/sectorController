@@ -1,0 +1,7 @@
+simname=Practice Sector #1
+filename=practice1.sim
+description=Multiple arrivals coming to a bunch of airports 
+%
+simname=Practice Sector #2
+filename=practice2.sim
+description=this is a description of run 2

@@ -1,0 +1,22 @@
+Controller Sim File
+time=14 35 00 ;hh mm ss
+**************************************
+Enroute/Departure Desig flight-number type CURALT CLRDALT
+ROUTE POINTS SEPARATED BY SPACES
+DISTANCE FROM WHICH FIX (28 3 IS 28NM FROM 3RD FIX)
+note - if flight number = XXX then Desig is civil ident ("GABC")
+note if a departure - number of minutes from start of run until taxi (approx)
+**************************************
+Wind
+41000 0 0
+24000 0 0
+9000  0 0
+**************************************
+Enroute In GABC XXX GLF5 CL60 190 190 XXXX A20 HOMER ASTRO D40 QQQQ 2 2
+Enroute Out AAL 353 A321 A320 170 170 XXXXA20 HOMER ASTRO D40 QQQQ 11 2
+Enroute Out ACA 231 A321 A320 130 130 XXXX1 A20 HOMER ASTRO D40 QQQQ 19 2
+Enroute In JZA 4214 CARJ CARJ 130 130 QQQQ D40 ASTRO DRACO B20 ZZZZ 6 3
+Enroute In GCAC XXX PA31 PA31 80 80 MMMM L44 SIMBA ASTRO D40 QQQQ 5 3
+Enroute In FXHZ XXX MU2 MU2 110 110 MMMM L44 SIMBA ASTRO D40 QQQQ 8 3
+Enroute Out KEE 103 SW4 SW3 70 70 ZZZZ B20 DRACO HOMER A20 XXXX 9 2
+Enroute Out WJA 955 B73C B73C 140 140 MMMM L44 SIMBA DEXTR L45 MMMM 15 2

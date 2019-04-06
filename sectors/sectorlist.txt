@@ -1,0 +1,11 @@
+sectorname=Martin Terminal
+filename=genterm
+description=Used as a training airspace, the Martin Terminal is a fictional airspace surrounding CYEZ - the Martin Airport and contains a smaller secondary airport CYMI, Allaby Bay.  The practice airspace is structured to allow students to learn basic terminal skills such as vectoring, sequencing, phraseology and to develop basic working methods.
+%
+sectorname=Ottawa Sector
+filename=ottawa
+description=Based on the airspace surrounding Ottawa, Canada.  CYOW is the major airport but there are multiple smaller regional airports which gives a great traffic mix.  Montreal is very close to the East and Toronto to the west causing lots of arrivals, departures and overflights.
+%
+sectorname=Practice Sector
+filename=practice
+description=Used to practice air traffic scenarios such as vectoring and solving conflictions, this airspace is very basic.  It has some lines and shapes representing airways and can be used to practice a variety of techniques.

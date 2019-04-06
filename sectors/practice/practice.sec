@@ -1,0 +1,122 @@
+Controller Sector File
+SETUP
+name=Practice Centre
+view=50.5,-90.75,50
+type=Polygon
+4
+50,-90
+50,-91.5
+51,-91.5
+51,-90
+sep=5
+RadarAlt=200
+SectorCap=230
+Variation=0
+(for variation, Positive is west)
+**************************************
+type=Polygon
+color=5
+Points=9
+50 40 00 90 50 00
+50 40 00 90 40 00
+50 33 20 90 30 00
+50 26 40 90 30 00
+50 20 00 90 40 00
+50 20 00 90 50 00
+50 26 40 91 00 00
+50 33 20 91 00 00
+50 40 00 90 50 00
+++++++++++++++++++++++
+type=Line
+color=2
+50 46 41 90 59 54
+50 46 29 90 29 45
+++++++++++++++++++++++
+type=Line
+color=2
+50 19 42 90 19 10
+50 39 41 90 18 59
+++++++++++++++++++++++
+type=Line
+color=2
+50 13 29 90 59 43
+50 13 23 90 29 57
+++++++++++++++++++++++
+type=Line
+color=2
+50 19 42 91 11 49
+50 39 41 91 11 41
+++++++++++++++++++++++
+type=Line
+color=2
+50 46 41 90 59 54
+50 46 29 90 29 45
+++++++++++++++++++++++
+type=Circle
+color=1
+49 41 49.82 97 36 06.95 5.0
+**************************************
+Overlay 1
+DATA
+++++++++++++++++++++++
+type=Polygon
+color=3
+Points=6
+50 16 18 97 49 56
+50 09 50 97 34 59
+50 09 50 97 11 44
+49 48 43 97 11 44
+49 48 43 97 34 05
+49 43 37 97 57 37
+++++++++++++++++++++++
+type=Line
+color=3
+49 53 20 97 11 51
+49 41 31 96 32 21
+++++++++++++++++++++++
+type=Polygon
+color=3
+Points=3
+50 03 32 97 11 51
+50 03 48 97 01 22
+50 11 47 96 23 30
+**************************************
+Overlay 2
+DATA
+++++++++++++++++++++++
+type=Circle
+color=4
+49 45 10 96 19 8 5.0
+**************************************
+Overlay 3
+NULL
+**************************************
+Overlay 4
+NULL
+**************************************
+XXXX 50 30 00 93 00 00 Ex-Airport A
+ZZZZ 52 00 00 90 45 00 Zed-Airport A
+QQQQ 50 30 00 88 00 00 Queue-Airport A
+MMMM 49 00 00 90 45 00 Em-Airport A
+DARTH 50 20 00 91 30 00 Darth W
+HOMER 50 40 00 91 30 00 Homer W
+STARK 51 00 00 91 00 00 Stark W
+DRACO 51 00 00 90 30 00 Draco W
+FRODO 50 40 00 90 00 00 Frodo W
+ASTRO 50 20 00 90 00 00 Astro W
+DEXTR 50 00 00 90 30 00 Dexter W
+SIMBA 50 00 00 91 00 00 Simba W
+A10 50 20 00 91 40 00 Alpha-one-zero V
+A20 50 40 00 91 40 00 Alpha-two-zero V
+B10 51 10 00 91 00 00 Bravo-one-zero V
+B20 51 10 00 90 30 00 Bravo-two-zero V
+D30 50 40 00 89 50 00 Delta-three-zero V
+D40 50 20 00 89 50 00 Delta-four-zero V
+L44 49 50 00 91 00 00 Lima-four-four V
+L45 49 50 00 90 30 00 Lima-four-five V
+**************************************
+V2 Victor-two HOMER FRODO
+V3 Victor-three DARTH ASTRO
+V4 Victor-four SIMBA STARK
+V6 Victor-six DRACO DEXTR
+**************************************

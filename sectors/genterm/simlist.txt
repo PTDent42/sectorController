@@ -1,0 +1,19 @@
+simname=Arrival Mix 1 Rwy 09
+filename=arr_mix09_1.sim
+description=Variety of arrivals to CYEZ Runway 09 with some Allaby Bay arrivals mixed in for good measure.  Moderately busy.  Some key separation issues that must be solved.
+%
+simname=Mixture Run
+filename=mixture09_1.sim
+description=A mixture of arrivals, departures and overflights.  Runway 09 is active at CYEZ, and after a fairly slow start, there'll be a bunch of arrivals that need sequencing and separation.
+%
+simname=Mixture Run
+filename=mixture09_2.sim
+description=A  mix on Runway 09 - 15 arrivals, 8 departures and 8 overflights over 30 minutes.  Very busy run once you get about 10 minutes in!
+%
+simname=Mixture Run
+filename=mixture27_1.sim
+description=A  mix on Runway 27 - 15 arrivals, 6 departures and 6 overflights over 30 minutes. 
+%
+simname=Test Run
+filename=testerfile.sim
+description=2 aircraft just for testing purposes

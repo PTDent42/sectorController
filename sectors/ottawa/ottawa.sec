@@ -1,0 +1,307 @@
+Controller Sector File
+SETUP
+name=Ottawa Sector
+view=45.25,-75.3,50
+type=Polygon
+6
+45.6,-76.5
+44.8,-76.3
+44.7,-75.7
+45.0,-74.3
+45.6,-74.45
+45.81,-75.06
+sep=3
+RadarAlt=1200
+SectorCap=230
+Variation=14
+(for variation, Positive is west)
+**************************************
+type=Polygon
+color=2
+Points=5
+49 00 00 101 25 35
+49 00 00 102 00 00
+49 00 00 103 00 00
+49 00 00 104 00 00
+49 00 00 105 00 00
+++++++++++++++++++++++
+type=Line
+color=2
+51 29 58 98 39 22
+54 13 15 98 21 10
+**************************************
+Overlay 1
+DATA
+++++++++++++++++++++++
+type=Polygon
+color=3
+Points=6
+50 16 18 97 49 56
+50 09 50 97 34 59
+50 09 50 97 11 44
+49 48 43 97 11 44
+49 48 43 97 34 05
+49 43 37 97 57 37
+++++++++++++++++++++++
+type=Line
+color=3
+49 53 20 97 11 51
+49 41 31 96 32 21
+++++++++++++++++++++++
+type=Polygon
+color=3
+Points=3
+50 03 32 97 11 51
+50 03 48 97 01 22
+50 11 47 96 23 30
+**************************************
+Overlay 2
+DATA
+++++++++++++++++++++++
+type=Circle
+color=4
+49 45 10 96 19 8 5.0
+**************************************
+Overlay 3
+NULL
+**************************************
+Overlay 4
+NULL
+
+**************************************
+OW 45 21 36 075 33 40 Ottawa-Endebee N
+MW 46 12 27 075 57 22 Maniwaki N
+SH 44 54 01 076 00 31 Smiths-falls N
+YOW 45 26 30 075 53 48 Ottawa V
+YYZ 43 39 28 079 37 53 Toronto V
+YXU 43 02 16 081 08 56 London V
+YEE 44 34 54 079 47 35 Midland V
+YMX 45 53 17 074 22 32 Mirabel V
+YQO 42 42 24 080 53 16 Aylmer V
+YSB 46 37 44 080 47 53 Sudbury V
+YUL 45 36 56 073 58 15 Montreal V
+YYB 46 21 50 079 26 11 North-bay V
+YGK 44 17 48 076 36 16 Kingston V
+YPQ 44 12 44 078 27 47 Peterborough V
+YQA 45 02 16 079 17 00 Muskoka V
+YRR 45 16 05 075 34 23 Greely V
+YTA 45 48 11 077 13 05 Pembroke V
+YTR 44 11 36 077 24 11 Trenton V
+ART 43 57 07 076 03 52 Watertown V
+YQT 48 15 20 089 26 20 Thunder-Bay V
+YSO 44 14 18 079 10 17 Simcoe V
+YCF 44 19 59 077 42 16 Campbellford V
+YXI 45 39 46 077 36 08 Killaloo V
+UFX 46 11 32 073 25 08 Saint-Felix V
+VIE 44 39 38 077 53 17 Coehill V
+MSS 44 54 51 074 43 21 Masena V
+ROC 43 07 04 077 40 22 Rochester V
+CYOW 45 19 21 075 40 09 Ottawa-Airport A
+CYSH 44 56 44 075 56 24 Smiths-Falls-Airport A
+CNP3 45 24 50 76 21 57 Arnprior-airport A
+CYCC 45 05 34 074 34 04 Cornwall-airport A
+CYUL 45 28 05 073 44 29 Montreal-Trudeau-Airport A
+CYHU 45 31 05 073 25 01 St-Hue-Bear-Airport A
+CYGL 53 37 31 077 42 14 La-Grande-airport A
+CYJN 45 17 39 073 16 53 Saint-Jean-airport A
+CYTZ 43 37 42 079 23 46 Billy-bishop-airport A
+CYPQ 44 13 49 078 21 47 Peterborough-airport A
+CYYC 51 07 21 114 00 48 Calgary-Airport A
+CYOO 43 55 22 078 53 46 Oshawa-airport A
+KORD 41 58 38 087 54 28 Chicago-O-Hare-airport A
+KBUF 42 56 25 078 43 50 Buffalo-airport A
+CYQG 42 16 33 082 57 19 Windsor-airport A
+CYFC 45 52 07 066 32 13 Fredericton-airport A
+CYHZ 44 52 46 063 30 36 Halifax-airport A
+CYMW 46 16 22 075 59 25 Maniwaki-airport A
+CYQB 46 47 28 071 23 35 Quebec-airport A
+CYYZ 43 40 38 079 37 50 Toronto-Airport A
+KBOS 42 21 51 071 00 18 Boston-Airport A
+KBUF 42 56 26 078 43 56 Buffalo-Airport A
+KEWR 40 41 33 074 10 07 Newark-Airport A
+KJFK 40 38 23 073 46 44 Kennedy-Airport A
+CYEG 53 18 35 113 34 46 Edmonton-Airport A
+CYVR 49 11 40 123 11 02 Vancouver-Airport A
+CYMX 45 53.3 00 74 22.5 00 Mirabel-Airport A
+KLAX 33 56 32 118 24 28 Los-Angeles-Airport A
+KORD 41 58 38 087 54 28 Chicago-O-Hare-Airport A
+KDAL 32 50 49 096 51 06 Dallas-Airport A
+PANC 61 10 26 149 59 53 Anchorage-Airport A
+VHHH 35 45 00 -140 00 00 Hong-Kong-Airport A
+RJAA 35 45 55 -140 23 08 Tokyo-Narita-Airport A
+KLAS 36 04 48 115 09 08 Las-Vegas-Airport A
+KATL 33 38 12 084 25 40 Atlanta-Airport A
+CYAM 46 29 06 084 30 34 Soo-Saint-Marie-Airport A
+LANRK 44 56 35 076 23 17 Lanark W
+MEGNO 45 21 30 075 56 49 Megno W
+RAFNO 45 25 32 075 52 38 Rafno W
+TEFLY 45 24 25 075 27 42 Teflee W
+ADVOS 45 20 11 075 23 53 Advos W
+TEXEN 45 12 32 075 27 33 Texen W
+VISOL 45 13 20 075 52 21 Visol W
+APLOV 44 55 41 076 08 29 Aplov W
+VERTI 45 15 00 74 50.5 00 Verti W
+AMOBI 45 16 38 075 45 03 Amobi W
+ALPAT 45 22 35 075 46 54 Alpat W
+TAKOL 45 39 00 75 11.9 00 Takol W
+TUKIR 45 15 06 076 14 20 Tukir W
+VODUL 45 15 42 075 33 38 Vodul W
+VIVAX 45 22 10 75 32 44 Vivax W
+MIVOK 44 21 36 077 35 20 Mivok W
+KANIK 44 39 00 076 57 23 Kanik W
+CYRIL 44 57 10 075 24 09 Cyril W
+ALIDO 45 44 26 075 40 45 Alido W
+MODON 45 17 34 075 56 11 Modon W
+WATTO 45 16 36 075 23 17 Watto W
+THURO 45 33 24 074 54 28 Thuro W
+ILOGI 45 29 37 075 48 23 Ilogi W
+XOLTI 45 28 39 075 31 30 Zolti W
+VOLAG 45 08 30 075 31 45 Volag W
+TILOG 45 09 07 075 48 31 Tilog W
+TIGET 44 23 26 077 09 42 Tigget W
+DEBUM 44 38 31 077 45 18 Debum W
+KEGLI 45 25 06 076 15 01 Kegli W
+SEAFO 44 58 50 075 52 57 Seafo W
+RODBI 45 05 52 075 52 10 Rodby W
+VOGAN 45 02 04 075 47 35 Vogan W
+LOBLO 44 58 16 075 43 01 Loblo W
+GOVAK 45 05 54 074 40 59 Govak W
+KAPIX 45 06 27 074 48 00 Kapix W
+ADSIV 45 10 20 074 52 26 Adsiv W
+DASAT 45 03 19 074 53 30 Dasat W
+SEMTA 45 06 07 074 28 02 Semta W
+URLIB 45 06 47 074 21 02 Urlib W
+NOTIL 45 01 49 074 20 07 Notill W
+**************************************
+T616 T616 YUL YOW
+T781 T781 TIGET APLOV VERTI UFX
+V348 V348 YYB MW YUL
+V300 V300 VIE YOW
+V370 V370 YOW YXI
+T614 T614 DEBUM TUKIR YUL
+**************************************
+CYOW
+Ottawa-Airport
+45 19 21 075 40 09
+Inside
+ELEV 377
+SID 5000
+Runways
+3
+45 19 37 75 41 11
+45 18 36 75 39 15
+45 18 42 75 40 23
+45 19 30 75 38 35
+45 19 36 75 41 16
+45 20 05 75 40 55
+Approaches
+4
+07
+runway-zero-seven
+BRG 071
+LGTH 8000
+FAF 45 16 38 075 45 03
+FAFALT 1680
+THRESHOLD 45 18 42 75 40 23
+0
+32
+runway-thirty-two
+BRG 320
+LGTH 10005
+FAF 45 15 42 075 33 38
+FAFALT 1800
+THRESHOLD 45 18 36 75 39 15
+0
+14
+runway-one-four
+BRG 140
+LGTH 10005
+FAF 45 22 35 075 46 54
+FAFALT 2000
+THRESHOLD 45 19 37 75 41 11
+0
+25
+runway-twenty-five
+BRG 253
+LGTH 8000
+FAF 45 22 10 75 32 44
+FAFALT 2000
+THRESHOLD 45 19 30 75 38 35
+0
+++++++++++++++++++++++
+CNP3
+Arnprior-airport
+45 24 50 76 21 57
+Inside
+ELEV 355
+SID 5000
+Runways
+1
+45 24 50 76 21 34
+45 24 48 76 22 31
+Approaches
+1
+28
+runway-two-eight
+BRG 279
+LGTH 3937
+FAF 45 25 06 076 15 01
+FAFALT 1900
+THRESHOLD 45 24 50 76 21 57
+0
+++++++++++++++++++++++
+CYSH
+Smiths-falls-airport
+44 56 44 075 56 24
+Inside
+ELEV 417
+SID 5000
+Runways
+1
+44 56 50 75 56 3
+44 56 24 75 56 37
+Approaches
+2
+24
+runway-two-four
+BRG 243
+LGTH 3998
+FAF 44 58 50 075 52 57
+FAFALT 1500
+THRESHOLD 44 56 50 75 56 3
+0
+06
+runway-zero-six
+BRG 060
+LGTH 3998
+FAF 44 54 01 076 00 31
+FAFALT 1700
+THRESHOLD 44 56 24 75 56 37
+0
+++++++++++++++++++++++
+CYCC
+Cornwall-regional-airport
+45 05 34 074 34 04
+Inside
+ELEV 175
+SID 3000
+Runways
+0
+Approaches
+2
+10
+runway-one-zero
+BRG 111
+LGTH 3510
+FAF 45 05 54 074 40 59
+FAFALT 1500
+THRESHOLD 45 05 34 074 34 04
+0
+28
+runway-two-eight
+BRG 280
+LGTH 3998
+FAF 45 06 07 074 28 02
+FAFALT 1700
+THRESHOLD 45 05 34 074 34 04
+0

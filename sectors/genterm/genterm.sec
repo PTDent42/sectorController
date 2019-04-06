@@ -1,0 +1,302 @@
+Controller Sector File
+SETUP
+name=Martin Terminal
+view=49.936,-97.2372,43
+type=Circle
+49.936111,-97.237222,30.55
+sep=3
+RadarAlt=1200
+SectorCap=230
+Variation=0
+(for variation, Positive is west)
+**************************************
+type=Polygon
+color=1
+Points=13
+49 00 00 101 25 35
+49 00 00 101 00 00
+49 00 00 100 00 00
+49 00 00 99 00 00
+49 00 00 98 00 00
+49 00 00 97 00 00
+49 00 00 96 00 00
+49 00 00 95 00 00
+49 00 00 94 00 00
+49 00 00 93 42 00
+51 08 14 93 12 36
+51 34 17 100 48 42
+49 00 00 101 25 35
+++++++++++++++++++++++
+type=Polygon
+color=2
+Points=5
+49 00 00 101 25 35
+49 00 00 102 00 00
+49 00 00 103 00 00
+49 00 00 104 00 00
+49 00 00 105 00 00
+++++++++++++++++++++++
+type=Line
+color=2
+51 29 58 98 39 22
+54 13 15 98 21 10
+++++++++++++++++++++++
+type=Line
+color=2
+51 08 14 93 12 36
+53 51 54 92 37 07
+++++++++++++++++++++++
+type=Line
+color=2
+49 00 00 93 42 00
+46 34 07 83 56 45
+++++++++++++++++++++++
+type=Line
+color=2
+49 00 00 102 20 44
+48 21 45 102 30 20
+++++++++++++++++++++++
+type=Line
+color=2
+48 34 17 91 37 57
+47 54 29 92 07 35
+++++++++++++++++++++++
+type=Line
+color=3
+50 26 00 97 09 59
+51 25 01 97 01 19
+++++++++++++++++++++++
+type=Line
+color=3
+49 27 48 97 29 16
+49 00 50 97 42 55
+++++++++++++++++++++++
+type=Line
+color=5
+49 48 59.59 096 37 15.64
+49 43 04.45 096 07 51.30
+++++++++++++++++++++++
+type=Line
+color=5
+50 14 00.08 098 18 19.24
+50 06 10.86 097 49 45.95
+++++++++++++++++++++++
+type=Line
+color=5
+49 56 07.93 098 23 53.73
+49 56 13.89 097 52 55.67
+++++++++++++++++++++++
+type=Line
+color=5
+50 06 03.82 096 38 37.52
+50 13 41.48 096 09 51.87
+++++++++++++++++++++++
+type=Line
+color=5
+50 35 08.91 097 48 59.01
+50 17 52.13 097 33 33.10
+++++++++++++++++++++++
+type=Line
+color=5
+49 31 15.46 097 10 57.78
+49 11 24.41 097 08 18.96
+++++++++++++++++++++++
+type=Line
+color=5
+50 16 21.65 096 51 46.28
+50 32 29.97 096 33 19.11
+++++++++++++++++++++++
+type=Circle
+color=1
+49 41 49.82 97 36 06.95 5.0
+**************************************
+Overlay 1
+DATA
+++++++++++++++++++++++
+type=Polygon
+color=3
+Points=6
+50 16 18 97 49 56
+50 09 50 97 34 59
+50 09 50 97 11 44
+49 48 43 97 11 44
+49 48 43 97 34 05
+49 43 37 97 57 37
+++++++++++++++++++++++
+type=Line
+color=3
+49 53 20 97 11 51
+49 41 31 96 32 21
+++++++++++++++++++++++
+type=Polygon
+color=3
+Points=3
+50 03 32 97 11 51
+50 03 48 97 01 22
+50 11 47 96 23 30
+**************************************
+Overlay 2
+DATA
+++++++++++++++++++++++
+type=Circle
+color=4
+49 45 10 96 19 8 5.0
+**************************************
+Overlay 3
+NULL
+**************************************
+Overlay 4
+NULL
+**************************************
+MI 49 39 4.35 97 41 52 Allaby-Bay-NDB N
+YHH 49 11 04 093 40 18 Heron V
+YFF 50 53 31 093 25 05 Falcon V
+YCC 51 07 15 095 52 49 Crow V
+YAA 51 18 25 098 28 16 Alark V
+YEZ 49 56 10 097 14 14 Martin V
+YDD 51 06 30 100 03 20 Dusty V
+YBB 49 55 00 099 57 10 Bagel V
+YDR 50 21 48 102 32 24 Broadview V
+YQV 51 16 20 102 28 10 Yorkton V
+YDK 52 07 08 094 40 48 Duck-Lake V
+YKK 49 56 42 091 17 40 Kiwi V
+YWW 49 22 04 098 21 40 Watson V
+YQT 48 15 20 089 26 20 Thunder-Bay V
+VLN 50 40 01 104 53 23 Lumsden V
+YPL 51 26 50 090 13 30 Pickle-Lake V
+ISN 48 15 12 103 45 02 Williston V
+DIK 46 51 35 102 46 24 Dickinson V
+HML 48 52 17 097 05 50 Humboldt V
+YJJ 51 47 17 099 56 21.60 Lumpy V
+YIR 53 58 25 101 06 00 Birch-River V
+YSO 44 14 18 079 10 17 Simcoe V
+FAR 46 45 12 096 51 04 Fargo V
+YGQ 49 46 10 086 59 03 Geraldton V
+YYB 46 21 50 079 26 11 North-Bay V
+YVC 55 09 29 105 16 00 LaRonge V
+CYMI 49 41 49.82 097 36 06.95 Allaby-Bay-Airport A
+CYEZ 49 56 10 097 14 14 Martin-Airport A
+CYOW 45 19 21 075 40 09 Ottawa-Airport A
+CYUL 45 28 05 073 44 29 Montreal-Trudeau-Airport A
+CYYZ 43 40 38 079 37 50 Toronto-Airport A
+KBOS 42 21 51 071 00 18 Boston-Airport A
+KBUF 42 56 26 078 43 56 Buffalo-Airport A
+KEWR 40 41 33 074 10 07 Newark-Airport A
+KJFK 40 38 23 073 46 44 Kennedy-Airport A
+CYEG 53 18 35 113 34 46 Edmonton-Airport A
+CYYC 51 06 54 113 52 55 Calgary-Airport A
+CYVR 49 11 40 123 11 02 Vancouver-Airport A
+CYIV 53 51 25 094 39 13 Island-Lake-Airport A
+CYXE 52 10 15 106 41 59 Saskatoon-Airport A
+CYQR 50 25 55 104 39 57 Regina-Airport A
+CYQT 48 22 19 089 19 18 Thunder-Bay-Airport A
+CYNE 53 57 29 097 50 38 Norway-House-Airport A
+CYSB 46 37 31 080 47 52 Sudbury-Airport A
+CYYQ 58 44 20 094 03 58 Churchill-Airport A
+EGLL 51 28 39 000 27 40 London-Heathrow-Airport A
+EHAM 52 18 29 -004 45 51 Amsterdam-Airport A
+CYTH 55 48 16 097 51 44 Thompson-Airport A
+KLAX 33 56 32 118 24 28 Los-Angeles-Airport A
+KLAX 33 56 32 118 24 28 Los-Angeles-Airport A
+KORD 41 58 38 087 54 28 Chicago-O-Hare-Airport A
+KDAL 32 50 49 096 51 06 Dallas-Airport A
+PANC 61 10 26 149 59 53 Anchorage-Airport A
+VHHH 35 45 00 -140 00 00 Hong-Kong-Airport A
+RJAA 35 45 55 -140 23 00 Tokyo-Narita-Airport A
+KLAS 36 04 48 115 09 08 Las-Vegas-Airport A
+KATL 33 38 12 084 25 40 Atlanta-Airport A
+CYAM 46 29 06 084 30 34 Soo-Saint-Marie-Airport A
+BRENT 49 56 6 97 21 40.35 Brent W
+CLHUN 49 56 06 097 05 22.18 Calhoon W
+WHITE 50 08 07.75 097 56 53.89 White W
+SPENX 50 06 55 097 34 27 Spenx W
+KRISL 50 06 48 97 15 13 Krissel W
+MINKK 50 01 08.99 097 14 52.67 Mink W
+FRANK 50 01 13 097 34 16 Frank W
+DUANE 50 01 23 096 53 16 Dwayne W
+CURAN 50 07 55.00 096 31 48.0 Kooran W
+BENET 50 01 18 096 59 40 Bennet W
+BLACK 49 26 17.15 097 10 17.73 Black W
+DUGGI 49 50 58.77 097 13 33.65 Dougie W
+LESLE 49 50 56 096 52 53 Leslie W
+ANGEL 50 22 10.00 097 37 25.00 Angel W
+BRUNS 50 20 26.00 096 47 10.00 Bruns W
+CURAN 50 07 55.00 096 31 48.00 Curan W
+BROWN 49 51 03 097 34 12 Brown W
+DEREK 49 47 33.00 096 29 57.00 Derek W
+KLNGR 50 29 21 95 07 56 Klinger W
+MILLR 51 12 16.00 096 56 03.00 Miller W
+GINGR 49 20 22.00 097 09 31.00 Ginger W
+PAKIT 51 06 08.00 095 39 22.00 Packet W
+PETRO 51 17 26.00 098 12 19.00 Petro W
+TROUT 50 18 51.00 095 49 21.00 Trout W
+BRADY 50 19 28.00 098 38 28.00 Brady W
+SHIVA 49 55 59.22 096 52 55.66 Shiva W
+SHRPA 49 56 2.45 097 34 08.12 Sherpa W
+TARDI 49 18 18.61 096 08 44.76 Tardy W
+WALTT 49 00 00 095 38 02 Walt W
+**************************************
+V2 Victor-two YQV WHITE YEZ DEREK YHH YQT
+V3 Victor-three YEZ BRUNS YCC YDK
+V4 Victor-four YBB YEZ CURAN KLNGR YFF YPL
+V6 Victor-six YAA ANGEL YEZ BLACK HML
+**************************************
+CYMI
+Allaby-Bay-Airport
+49 41 49.82 097 36 06.95
+Inside
+ELEV 800
+SID 3000
+Runways
+1
+49 41 34 97 37 5
+49 42 7 97 36 6
+Approaches
+1
+05
+runway-zero-five
+BRG 050
+LGTH 5000
+FAF 49 39 4.35 97 41 52
+FAFALT 1700
+THRESHOLD 49 41 34 97 37 5
+0
+++++++++++++++++++++++
+CYEZ
+Martin-Airport
+49 56 10 097 14 14
+Inside
+ELEV 800
+SID 7000
+Runways
+2
+49 56 6 97 14 40
+49 56 5 97 12 24
+49 56 36 97 14 56
+49 55 45 97 13 47
+Approaches
+2
+09
+runway-zero-niner
+BRG 090
+LGTH 8800
+FAF 49 56 6 97 21 40.35
+FAFALT 2100
+THRESHOLD 49 56 6 97 14 40
+4
+CURAN2 CURAN BENET MINKK FRANK SHRPA
+WHITE6 WHITE SPENX KRISL MINKK FRANK SHRPA
+BLACK8 BLACK DUGGI BROWN SHRPA
+DEREK5 DEREK LESLE DUGGIE BROWN SHRPA
+27
+runway-two-seven
+BRG 270
+LGTH 8800
+FAF 49 56 06 097 05 22.18
+FAFALT 2100
+THRESHOLD 49 56 5 97 12 24
+4
+CURAN2 CURAN DUANE SHIVA
+WHITE6 WHITE FRANK DUANE SHIVA
+BLACK8 BLACK DUGGI LESLE SHIVA
+DEREK5 DEREK LESLE SHIVA

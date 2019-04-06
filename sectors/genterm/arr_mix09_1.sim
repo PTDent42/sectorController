@@ -1,0 +1,27 @@
+Controller Sim File
+time=19 21 00 ;hh mm ss
+**************************************
+Enroute/Departure Desig flight-number type CURALT CLRDALT
+ROUTE POINTS SEPARATED BY SPACES
+DISTANCE FROM WHICH FIX (28 3 IS 28NM FROM 3RD FIX)
+note - if flight number = XXX then Desig is civil ident ("GABC")
+note if a departure - number of minutes from start of run until taxi (approx)
+**************************************
+Wind
+41000 200 62
+24000 150 30
+9000 120 13
+**************************************
+Enroute In FYWZ XXX GLF5 CL60 187 100 EGLL YDK BRUNS BENET FRANK SHRPA CYEZ 3 3
+Enroute In ACA 155 A320 A320 56 56 CYUL *CURAN2 CYEZ 3 3
+Enroute In WJA 579 B73C B73A 110 100 CYUL *CURAN2 CYEZ 3 2
+Enroute In TGO 111 C550 C550 139 80 CYTH ANGEL BROWN CYMI 7 2
+Enroute In ACA 498 A319 A320 50 40 CYYZ *DEREK5 CYEZ 5 4
+Enroute In WJA 943 B73C B73A 140 100 CYYZ *DEREK5 CYEZ 10 2
+Enroute In JZA 8442 CRJ1 CARJ 110 100 CYEG *WHITE6 CYEZ 4 2
+Enroute Out ACA 763 A320 A320 190 100 CYEG *WHITE6 CYEZ 32 2
+Enroute Out JZA 8732 DH8A DHC8 70 70 CYQR CYMI 45 2
+Enroute Out AAL 189 B722 B727 170 100 KORD HML *BLACK8 CYEZ 24 3
+Enroute Out ACA 157 A320 A320 173 100 CYUL *CURAN2 CYEZ 36 2
+Enroute Out ACA 822 A319 A320 213 100 CYYZ *DEREK5 CYEZ 50 2
+Enroute Out GAAC XXX MU2 MU2 160 100 CYYQ BRUNS BENET DUGGI CYMI 11 2

@@ -1,0 +1,504 @@
+/* -----------------------------------
+//
+//      Generic Items
+//
+---------------------------------------*/
+body {
+	font-family: Arial, Verdana, sans-serif;
+	background: #333333;
+    touch-action: none;
+}
+p {  color: #665544;  }
+/* Canvas */
+#canvasMap	{
+    z-index: 1;
+    top: 0px;
+    left: 0px
+    position:fixed;
+}
+#LoadingDiv{
+    z-index: 101;
+    top:0px;
+    left:0px;
+    position:fixed;
+    background-color: #333333;
+}
+.loader {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #999999;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+.loadingtext{
+    font-size: 20px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    top: 180px;
+    left: 300px;
+}
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* -----------------------------------
+//
+//     Voice & Sep Window Text styles
+//
+---------------------------------------*/
+.ControllerComm {
+    font-size: 12px;
+    color: #cccccc;
+    padding: 3px;
+    margin: 0px;
+    line-height: 1.0;
+}
+.PilotComm {
+    font-size: 12px;
+    color: #7777ff;
+    padding: 3px;
+    margin: 0px;
+}
+.CoordinationComm {
+    font-size: 12px;
+    color: #aaaaee;
+    padding: 3px;
+    margin: 0px;
+    line-height: 1.0;
+}
+.technicalloss {
+    font-size: 12px;
+    color: #cccc00;
+    padding: 3px;
+    margin: 0px;
+    line-height: 1.0;
+}
+.actualloss {
+    font-size: 12px;
+    color: #ff3333;
+    padding: 3px;
+    margin: 0px;
+    line-height: 1.0;
+}
+/* -----------------------------------
+//
+//     Specific Final Scoring Window Items
+//
+---------------------------------------*/
+.dialogtopwindow{
+    background-color: #252525;
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+    z-index: 100;
+}
+.insetpane {
+    background-color: #353535;
+    border-color: #202020;
+    border-width: 1px 3px 3px 1px;
+    border-style: solid;
+}
+.lblheader{
+    font-size: 18px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.lbllabel{
+    font-size: 14px;
+    position: absolute;
+    color: #cccccc;
+    padding: 0px;
+    margin: 0px;
+}
+.txtlabel{
+    font-size: 16px;
+    position: absolute;
+    color: #0088dd;
+    padding: 0px;
+    margin: 0px;
+}
+/* -----------------------------------
+//
+// Interface Items (Window, Pane, Controls)
+//
+---------------------------------------*/
+.topwindow{
+    background-color: #ffffff10;
+    border-color: #666666;
+    border-width: 1px;
+    border-style: solid;
+}
+.darktopwindow{
+    background-color: #0b0b0b10;
+    border-color: #222222;
+    border-width: 1px;
+    border-style: solid;
+}
+.opaquetopwindow{
+    background-color: #000000;
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid;
+}
+.standardpane{
+    background-color: #303030;
+    border-color: #888888;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+}
+.stripbay {
+    background-color: #ffffff00;
+    border-color: #888888;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+}
+.darkpane{
+    background-color: #101010;
+    border-color: #888888;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+}
+.clearancepane{
+    background-color: #44444444;
+    border-style: none;
+}
+.clearpane{
+    background-color: #10101000;
+    border-color: #888888;
+    border-style: none;
+}
+.scrollpane{
+    background-color: #10101000;
+    border-color: #888888;
+    border-style: none;
+    overflow-y: scroll;
+}
+.stripactive {
+    background-color: #ffffff;
+    border-color: #000000;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
+.stripinactive {
+    background-color: #444444;
+    border-color: #000000;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
+/* -----------------------------------
+//
+//      Label Styles
+//
+---------------------------------------*/
+.sectorinfo{
+    font-family: sans-serif;
+    background-color: #00000000;
+    font-size: 13px;
+    color: #0088dd;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+.wind{
+    font-family: sans-serif;
+    background-color: #00000000;
+    font-size: 15px;
+    color: #0088dd;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+}
+.clock{
+    font-family: sans-serif;
+    background-color: #00000000;
+    font-size: 36px;
+    color: #0088dd;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+.lbl12White{
+    font-size: 12px;
+    position: absolute;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+.lbl14WhiteCenter{
+    font-size: 14px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.striptextactive{
+    position: absolute;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+.striptextinactive{
+    position: absolute;
+    color: #999999;
+    padding: 0px;
+    margin: 0px;
+}
+/* -----------------------------------
+//
+//     Button Styles
+//
+---------------------------------------*/
+.stdbutton {
+    background-color: #1c1c1c;
+    padding: 2px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #777777;
+    color: #dddddd;
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    background-size: 24px 24px;
+}
+.stdbutton:hover {
+    border-width: 3px;
+}
+.stdbutton:active {
+    transform: translateY(2px);
+}
+/* standard button in disabled state */
+.stdbuttondisabled {
+    background-color: #1c1c1c;
+    padding: 2px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #777777;
+    color: #444444;
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    background-size: 24px 24px;
+}
+.stdbuttondisabled:hover {
+    border-width: 3px;
+}
+.stdbuttondisabled:active {
+    transform: translateY(2px);
+}
+/*alternate state for the pushbutton to show "on" */
+.stdbuttontoggle {
+    background-color: #2d2d2d;
+    padding: 2px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #777777;
+    color: #0088dd;
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    background-size: 24px 24px;
+}
+.stdbuttontoggle:hover {
+    border-width: 3px;
+}
+.stdbuttontoggle:active {
+    transform: translateY(2px);
+}
+/*Actionbuttons - buttons with yellow to denote action required*/
+.actionbutton {
+    background-color: #1c1c1c;
+    padding: 2px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #777777;
+    color: #dddd00;
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    background-size: 24px 24px;
+}
+.actionbutton:hover {
+    border-width: 3px;
+}
+.actionbutton:active {
+    transform: translateY(2px);
+}
+/* Menu Buttons for context sensitive menus */
+.menubutton {
+    background-color: #00000090;
+    color: #dddddd;
+    cursor: pointer;
+    font-size: 12px;
+    border-width: 1px;
+    border-color: #808080;
+    text-align: left;
+    padding: 1px;
+    z-index: 50;
+}
+.menubutton:hover {
+    background-color: #4444aaee;
+}
+.menubutton:active {
+    transform: translateX(2px);
+}
+/*Selection buttons for panel selection*/
+.selectionbutton {
+    background-color: #3c3c3c;
+    padding: 2px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #777777;
+    color: #dddddd;
+    cursor: pointer;
+    position: absolute;
+    font-size: 16px;
+    background-size: 24px 24px;
+}
+.selectionbutton:hover {
+    border-width: 3px;
+}
+.selectionbutton:active {
+    transform: translateY(2px);
+}
+/* -----------------------------------
+//
+//     Strip and Strip element Styles
+//
+---------------------------------------*/
+/*strip headers */
+.stripheader {
+    background-color: #202020;
+    color: #dddddd;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-color: #000000;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+
+}
+/* ACTIVE STRIPS */
+/* strip text */
+.activestriptext {
+    background-color: #ffffff;
+    font-size: 12px;
+    color: #000000;
+    padding: 3px;
+    margin: 0px;
+}
+.activesignal1{
+    background-color: #eeeeee;
+    font-size: 18px;
+    color: #000000;
+    padding: 4px;
+    margin: 0px;
+}
+.activesignal2{
+    background-color: #eeeeee;
+    font-size: 16px;
+    color: #aaaaaa;
+    padding: 1px;
+    margin: 1px;
+}
+.activebuttonoverlay{
+    background-color: #00000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+.activebuttonoverlay:hover{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #0070c0;
+}
+.activebuttonoverlay:active{
+    transform: translateY(2px);
+}
+/* INACTIVE Strip */
+.inactivestriptext {
+    background-color: #444444;
+    font-size: 11px;
+    color: #888888;
+    padding: 3px;
+    margin: 0px;
+}
+.inactivesignal1{
+    background-color: #222222;
+    font-size: 22px;
+    color: #dddddd;
+    padding: 0px;
+    margin: 0px;
+}
+.inactivesignal2{
+    background-color: #444444;
+    font-size: 16px;
+    color: #aaaaaa;
+    padding: 1px;
+    margin: 1px;
+}
+.inactivebuttonoverlay{
+    background-color: #00000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #666666;
+}
+.inactivebuttonoverlay:hover{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #0060a0;
+}
+.inactivebuttonoverlay:active{
+    transform: translateY(2px);
+}
+/* the signal flag */
+.flagyellow{
+    background-color: #eeee00;
+}
+.flagblue{
+    background-color: #0088dd;
+}
+.flagoff{
+    background-color: #ffffff00;
+}
+.selectedbuttonoverlay{
+    background-color: #00000000;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #00cc00;
+}
+.selectedbuttonoverlay:hover{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #009900;
+}
+.selectedbuttonoverlay:active{
+    transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+

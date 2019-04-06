@@ -1,0 +1,7 @@
+simname=Ottawa Sector #1
+filename=ottawa1.sim
+description=Multiple arrivals coming to a bunch of airports 
+%
+simname=Ottawa Sector #2
+filename=ottawa2.sim
+description=this is a description of run 2

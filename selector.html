@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134994958-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-134994958-1');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Pete Thompson">
+    <meta name="description" content="An air traffic control simulator that effectively simulates the job an air traffic controller in an IFR environment.  This javascript based system includes effective aircraft performance and allows for clearances and instructions to be delivered to aircraft.  The goal is to safely separate aircraft and ensure an orderly and expeditious flow of traffic">
+    <title>Sector Controller</title>
+    <link rel="stylesheet" href="css/selector.css">
+    <script src="selector.js"></script>
+    <link rel="shortcut icon" href="#" />
+</head>
+
+<body>
+
+<div id="mainContainer">
+    <div id="LoadingDiv" style = "height:1000px; width:2000px">
+        <div class="loader"></div>
+        <p class = "loadingtext">Sector Selection loading, please wait...</p>
+    </div>
+
+    <img id="title1Pic" src="images/title.png" height="42" width="133">
+    <div id="sectorChoiceBox" class="containerBoxClass"> 
+        <h1 id="sectorBoxTitle"> Sector Selection </h1>
+        <img id="sectorImage" src="sectors/genterm/genterm.png" width="450" height="225">
+        <button class="sectorChoiceButton" id="btnNextSector"> Next >> </button>
+        <button class="sectorChoiceButton" id="btnPrevSector"> << Prev </button>
+        <h2 id="txtSectorName"> Sector Name </h2>
+        <p id="txtSectorDescription"> Bla Bla Bla </p>
+        <button class="sectorTypeButton" id="btnScripted"> Scripted Exercise </button>
+        <button class="sectorTypeButton" id="btnDynamic"> Random Generation </button>
+    </div>
+
+    <div id="scenarioChoiceBox" class="containerBoxClass">
+        <h1 id="scenarioBoxTitle"> Choose Scenario </h1>
+        <h2 id="txtSectorName3"> Sector Name </h2>
+         <div id="dlgScenarioChoices" class="CustomizeDialogs">
+            <p class="dlgTitle"> Select Scenario</p>
+            <select id="slctScenarioChoice" name="scenarioChoice" size="10">
+                <option id="scen1" value="Scenario 1" selected>Scen1</option>
+                <option id= "scen2" value="Scenario 2">Scen2</option>
+                <option id= "scen3" value="Scenario 3">Scen3</option>
+                <option id= "scen4" value="Scenario 4">Scen4</option>
+            </select>
+         </div>
+
+        <div id="dlgDescription" class="CustomizeDialogs">
+            <p class="dlgTitle"> Description</p>
+            <p id="descName"> Exercise Name </p>
+            <p id="descDescription"> Sector Description goes Here!</p> 
+         </div>
+        <button class="btnBack" id="btnScenToSector"> << Sector Selection </button>
+        <button class="sectorTypeButton" id="btnLaunchScripted"> Launch </button>
+
+    </div>
+
+    <div  id="customizeBox" class="containerBoxClass">
+        <h1 id="customizeBoxTitle"> Customize Scenario </h1>
+        <h2 id="txtSectorName2"> Sector Name </h2>
+        <div id="dlgStartTime" class="CustomizeDialogs">
+             <p class="dlgTitle"> Start Time</p>
+             <button class="spinbutton" id="btnHourUp"> </button>
+             <button class="spinbutton" id="btnHourDown"> </button>
+             <button class="spinbutton" id="btnMinuteUp"> </button>
+             <button class="spinbutton" id="btnMinuteDown"> </button>
+             <p id="txtHour">14</p>
+             <p id="txtMinute">35</p>
+         </div>
+
+         <div id="dlgWind" class="CustomizeDialogs">
+            <p class="dlgTitle"> Surface Winds</p>
+            <p id="windInstruction"> Note:  Dynamic upper level winds will
+             be automatically determined</p>
+             <button class="spinbutton" id="btnWindDirUp"> </button>
+             <button class="spinbutton" id="btnWindDirDown"> </button>
+             <button class="spinbutton" id="btnWindSpdUp"> </button>
+             <button class="spinbutton" id="btnWindSpdDown"> </button>
+             <p id="txtWindBearing">BRG: 040</p>
+             <p id="txtWindSpeed">25 Kts</p>
+         </div>
+
+         <div id="dlgResponse" class="CustomizeDialogs">
+            <p class="dlgTitle"> Pilot Response Time</p>
+            <select id="pilotChoice" name="pilotResponse" size="4">
+                <option id="pilotQuick" value="QUICK" selected>Quick</option>
+                <option id= "pilotAverage" value="AVERAGE">Average</option>
+                <option id= "pilotSlow" value="SLOW">Slow</option>
+                <option id= "pilotAwful" value="AWFUL">Awful</option>
+            </select>
+         </div>
+
+         <div id="dlgTraffic" class="CustomizeDialogs">
+            <button class="spinbutton" id="btnSimLengthUp"> </button>
+            <button class="spinbutton" id="btnSimLengthDown"> </button>
+            <button class="spinbutton" id="btnArrUp"> </button>
+            <button class="spinbutton" id="btnArrDown"> </button>
+            <button class="spinbutton" id="btnDepUp"> </button>
+            <button class="spinbutton" id="btnDepDown"> </button>
+            <button class="spinbutton" id="btnOverUp"> </button>
+            <button class="spinbutton" id="btnOverDown"> </button>
+            <p id="txtSimLength">120 Minutes</p>
+            <p id="txtTotalTraffic">Handle 30 Aircraft over </p>
+            <p id="txtArr">12 Arrivals</p>
+            <p id="txtDep">10 Departures</p>
+            <p id="txtOver">8 Overflights</p>
+        </div>
+        <button class="sectorTypeButton" id="btnLaunchCustom"> Launch </button>
+        <button class="btnBack" id="btnCustomToSector"> << Sector Selection </button>
+    </div>
+
+</body>
+</html>
